@@ -5,15 +5,17 @@ import React from 'react';
 // import LocationPicker from './components/LocationPicker/LocationPicker';
 
 import {AddressSearch, LeafletMap, LocationPicker} from './components';
+import styles from './App.module.css';
 
 class App extends React.Component {
     render() {
         return (
-            <div>
+            <div className = {styles.container}>
                 <h1>Start of our WiFind App</h1>
-                <LeafletMap />
+                <LeafletMap /> 
                 <AddressSearch />
                 <LocationPicker />
+
             </div>
         )
     }
