@@ -4,10 +4,16 @@ import React from 'react';
 // import LeafletMap from './components/LeafletMap/LeafletMap';
 // import LocationPicker from './components/LocationPicker/LocationPicker';
 
+import { fetchData } from './api';
+
 import {AddressSearch, LeafletMap, LocationPicker} from './components';
 import styles from './App.module.css';
 
 class App extends React.Component {
+    async componentDidMount() {
+        const data = await fetchData();
+        console.log(data);
+    }
     render() {
         return (
             <div className = {styles.container}>
