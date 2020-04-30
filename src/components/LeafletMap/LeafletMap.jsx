@@ -1,6 +1,7 @@
 import React from 'react';
 
-const LeafletMap = () => {
+const LeafletMap = (props) => {
+    console.log(props);
     return (
         <h2>Leaflet Map</h2>
     )

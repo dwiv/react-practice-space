@@ -10,15 +10,23 @@ import {AddressSearch, LeafletMap, LocationPicker} from './components';
 import styles from './App.module.css';
 
 class App extends React.Component {
+    state = {
+        data: {},
+    }
+
     async componentDidMount() {
-        const data = await fetchData();
-        console.log(data);
+
+
+        const fetchedData = await fetchData();
+        this.setState({data: fetchedData});
+        console.log(fetchedData);
     }
     render() {
+        const { data } = this.state;
         return (
             <div className = {styles.container}>
                 <h1>Start of our WiFind App</h1>
-                <LeafletMap /> 
+                <LeafletMap data={data}/> 
                 <AddressSearch />
                 <LocationPicker />
 
