@@ -1,0 +1,12 @@
+.map {
+    height: 10vh;
+    width: 960px;
+}
+.container {
+    height: 50vh;
+    width: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
