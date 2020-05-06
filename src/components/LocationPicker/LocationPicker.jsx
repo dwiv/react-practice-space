@@ -16,7 +16,7 @@ const LocationPicker = (props) => {
 
     const wifiSites = props.data.map(site => {
         const address_line = JSON.parse(site.location_1.human_address).address;
-        console.log('i hate this: ', address_line);
+        console.log('i hate this so much: ', address_line);
         return (
         <Grid item component={Card}>
           <CardContent>
