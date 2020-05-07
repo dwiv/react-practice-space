@@ -7,18 +7,17 @@ import Button from "@material-ui/core/Button";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 
-// import NavBar from "react-responsive-menubar/lib/NavBar";
-// import AddressSearch from './components/AddressSearch/AddressSearch';
-// import LeafletMap from './components/LeafletMap/LeafletMap';
-// import LocationPicker from './components/LocationPicker/LocationPicker';
 
 import { fetchData } from "./api";
 
-import { AddressSearch, LeafletMap, LocationPicker } from "./components";
+import { AddressSearch, LeafletMap, LocationPicker,NavigationBar } from "./components";
 // import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "./app.css";
 import styles from "./App.module.css";
+
+import { BrowserRouter} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 class App extends React.Component {
   state = { showSideNav: false, data: {} };
@@ -37,28 +36,18 @@ class App extends React.Component {
   render() {
     const { data } = this.state;
     return (
-      <div className={styles.container}>
-        <AppBar position="static">
-          <Toolbar>
-            <IconButton
-              edge="start"
-              // className={classes.menuButton}
-              color="inherit"
-              aria-label="menu"
-            >
-              <MenuIcon />
-            </IconButton>
-            <Typography variant="h6">Wi-Find</Typography>
-            <Button color="inherit">Button 1</Button>
-            <Button color="inherit">Button 2</Button>
-            <Button color="inherit">Button 3</Button>
 
-          </Toolbar>
-        </AppBar>
-        <h1>Wi-Find App</h1>
-        <LeafletMap data={data} />
-        <AddressSearch />
-        <LocationPicker data={data} />
+      <div>
+      <NavigationBar>
+    
+      </NavigationBar>
+      
+      <div class="stuff">
+      <h1>Wi-Find App</h1>
+          <LeafletMap data={data} />
+          <AddressSearch />
+          <LocationPicker data={data} />
+      </div> 
       </div>
     );
   }

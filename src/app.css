@@ -1,4 +1,17 @@
 .leaflet-container { 
-    width: 100%;
+    width: 50%;
     height: 40vh;
+    /* max-width: 960px; */
+
+    align-items: center;
+    justify-content: center;
 }
+
+h1{
+    text-align: center;
+}
+
+div {
+    text-align: center;
+  }
+
