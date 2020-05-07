@@ -14,5 +14,10 @@
 @media screen and (max-width: 500px) {
     .container {
         width: 300px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+
     }
 }

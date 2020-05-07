@@ -12,3 +12,9 @@
     align-content: center;
     flex-direction: column;
 }
+
+@media screen and (max-width: 500px) {
+    .map {
+        min-width: 300px;
+    }
+}
