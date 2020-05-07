@@ -48,14 +48,14 @@ class App extends React.Component {
             >
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6">WiFind</Typography>
+            <Typography variant="h6">Wi-Find</Typography>
             <Button color="inherit">Button 1</Button>
             <Button color="inherit">Button 2</Button>
             <Button color="inherit">Button 3</Button>
 
           </Toolbar>
         </AppBar>
-        <h1>WiFind App</h1>
+        <h1>Wi-Find App</h1>
         <LeafletMap data={data} />
         <AddressSearch />
         <LocationPicker data={data} />

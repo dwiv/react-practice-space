@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, Typography, Grid, GridList } from '@material-ui/core'
+import { Card, CardContent, Typography, Grid, GridList } from '@material-ui/core';
 
 import styles from './LocationPicker.module.css';
 
@@ -13,7 +13,7 @@ const LocationPicker = (props) => {
         )
     }
     console.log('location picker props: ', props.data);
-
+    
     const wifiSites = props.data.map(site => {
         const address_line = JSON.parse(site.location_1.human_address).address;
         console.log('i hate this so much: ', address_line);
@@ -34,7 +34,7 @@ const LocationPicker = (props) => {
     return (
         <div className={styles.container}>
             <h2>Location Picker</h2>
-            <GridList container spacing={3} justify='center'>
+            <GridList className={styles.locationGrid} container spacing={3} justify='center' cols={1}>
 
                     {wifiSites}
 
