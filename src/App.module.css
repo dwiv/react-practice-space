@@ -25,7 +25,7 @@ body {
         align-items: center;
     }
     .router {
-        background-color: #E5E5E5;
+        /* background-color: #E5E5E5; */
         width: 400px;
         display: flex;
         align-items: center;
