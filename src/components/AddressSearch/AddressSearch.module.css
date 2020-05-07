@@ -6,6 +6,10 @@
     flex-direction: column;
 }
 .searchBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
     width: 400px;
     position: absolute;
     z-index: 1;
