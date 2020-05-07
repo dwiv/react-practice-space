@@ -6,18 +6,21 @@ import styles from './AddressSearch.module.css';
 
 const AddressSearch = () => {
     const [address, setAddress] = React.useState('');
-
+    const [coordinates, setCoordinates] = React.useState({
+        lat: null,
+        lng: null
+    });
     const handleSelect = async (value) => {
-
+        const results = await geocodeByAddress(value);
     }
     return (
-        <div>
+        <div className={styles.container}>
             <h2>Address Search</h2>
-            <PlacesAutocomplete value={address} onChange={setAddress} onSelect={handleSelect}>
+            <PlacesAutocomplete className={styles.searchBar} value={address} onChange={setAddress} onSelect={handleSelect}>
                 {({getInputProps, suggestions, getSuggestionItemProps, loading}) => (
                 <div>
                     <TextField id='filled-used' {...getInputProps({placeholder: 'Type Address'})} variant='filled' label='Address'/>
-                    <div>
+                    <div className={styles.searchBar}>
                         {loading ? <div>...loading</div>: null}
                         {suggestions.map((suggestion) => {
                             const style = {
@@ -30,6 +33,7 @@ const AddressSearch = () => {
                                 </div>
                             )
                         })}
+                        <div className={styles.bumper}></div>
                     </div>
                 </div>
                 )}
