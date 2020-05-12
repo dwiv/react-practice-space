@@ -21,7 +21,7 @@ const LeafletMap = (props) => {
     const zoom = 13;
     return (
       <div className={styles.container}>
-        <h2>Leaflet Map</h2>
+        <h2></h2>
         <Map className={styles.map} center={[38.9, -76.9]} zoom={13}>
               <TileLayer
                 attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

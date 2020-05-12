@@ -33,7 +33,7 @@ const LocationPicker = (props) => {
 
     return (
         <div className={styles.container}>
-            <h2>Location Picker</h2>
+            <h2></h2>
             <GridList className={styles.locationGrid} container spacing={3} justify='center' cols={1}>
 
                     {wifiSites}
