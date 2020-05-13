@@ -12,7 +12,7 @@ We built this app with iOS and Android users in mind. The browsers we specifical
 
 ## Link To User Manual
 
-[a relative link](user.md)
+[user.md](user.md)
 
 ## Link to Developer Manual
 
