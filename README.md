@@ -8,7 +8,7 @@ https://inst-377-final-deliverable.herokuapp.com/
 
 ### Description of target browsers
 
-We built this app with iOS and Android users in mind. The browsers we specifically targeted include Safari 10.0 through 13.0 and Android 9 Pie through Android 11. 
+We built this app with iOS and Android users in mind. The browsers we specifically targeted include Safari (Version 10.0 and above), Google Chrome (Version 66.0 and above), Mozilla Firefox (Version 52.0 and above), and Internet Explorer (Version 9 and aboce).
 
 ```
 Give examples
