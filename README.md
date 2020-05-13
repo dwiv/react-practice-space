@@ -12,7 +12,7 @@ We built this app with iOS and Android users in mind. The browsers we specifical
 
 ## Link To User Manual
 
-[user.md](user.md)
+Please read though [here](https://github.com/dwiv/react-practice-space/blob/master/docs/user.md)
 
 ## Link to Developer Manual
 
