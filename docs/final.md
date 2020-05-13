@@ -2,7 +2,7 @@
 Wi-Find App
 
 # Group Members
-Dennis Whitley, Jonathan Yeldell, Nnamdi Uzeigwe, Demilade Opaleke, Favion David
+Dennis Whitley, Jonathan Yeldell, Nnamdi Ezeigwe, Demilade Opaleke, Favion David
 
 # Link to where your app is running
 https://inst-377-final-deliverable.herokuapp.com/
