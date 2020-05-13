@@ -6,55 +6,19 @@ Originally, our team wanted to track how access to high-speed internet is distri
 
 https://inst-377-final-deliverable.herokuapp.com/
 
-### Description of target browsers
+## Description of target browsers
 
-We built this app with iOS and Android users in mind. The browsers we specifically targeted include Safari 10.0 through 13.0 and Android 9 Pie through Android 11. 
+We built this app with iOS and Android users in mind. The browsers we specifically targeted include Safari (Version 10.0 and above), Google Chrome (Version 66.0 and above), Mozilla Firefox (Version 52.0 and above), and Internet Explorer (Version 9 and aboce).
 
-```
-Give examples
-```
+## Link To User Manual
 
-### Installing
+[user.md](user.md)
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
+## Link to Developer Manual
 
 Explain how to run the automated tests for this system
 
-### Break down into end to end tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
