@@ -1,5 +1,3 @@
-###Application and Identified Staekholders
-
 While our app isn't exactly fully functional, the app was designed to be used to find the closest PG county establishments that offered free WiFi.
 
 First, the user would enter in their current address, then the app would provide a list of establishments that were in close proximity (both on the scroll menu and as placeholders on the map). The output would include the exact distance away (in miles and minutes).
