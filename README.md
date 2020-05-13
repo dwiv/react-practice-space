@@ -103,6 +103,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Authors
+
+* Nnamdi Ezeigwe
+* Dennis Whitley
+* Favion David
+* Jonathan Yeldell
+* Oluwademilade Opaleke
+
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
